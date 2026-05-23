@@ -8,8 +8,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/rexrecio/dasredis/resp"
-	"github.com/rexrecio/dasredis/store"
+	"github.com/rexrecio/dasdis/resp"
+	"github.com/rexrecio/dasdis/store"
 )
 
 type Server struct {
@@ -25,7 +25,7 @@ func (s *Server) ListenAndServe(addr string) error {
 	if err != nil {
 		return err
 	}
-	log.Printf("dasredis listening on %s", addr)
+	log.Printf("dasdis listening on %s", addr)
 	for {
 		c, err := ln.Accept()
 		if err != nil {

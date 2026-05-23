@@ -1,4 +1,4 @@
-// Package store is the in-memory key-value store backing dasredis.
+// Package store is the in-memory key-value store backing dasdis.
 // Strings are kept in a plain map; lists use dasgo/linkedlist; sorted
 // sets use dasgo/avl with a lex-sortable composite key. There is no
 // persistence — all data is lost when the process exits.

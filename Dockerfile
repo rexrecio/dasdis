@@ -4,12 +4,12 @@ WORKDIR /build
 
 COPY . .
 
-RUN go build -o dasredis .
+RUN go build -o dasdis .
 
 FROM alpine:3.21
 
-COPY --from=builder /build/dasredis /usr/local/bin/dasredis
+COPY --from=builder /build/dasdis /usr/local/bin/dasdis
 
 EXPOSE 6380
 
-ENTRYPOINT ["dasredis"]
+ENTRYPOINT ["dasdis"]

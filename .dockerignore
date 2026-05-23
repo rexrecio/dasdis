@@ -4,5 +4,5 @@
 .dockerignore
 *.md
 LICENSE
-dasredis
+dasdis
 *_test.go

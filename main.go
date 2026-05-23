@@ -4,7 +4,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/rexrecio/dasredis/server"
+	"github.com/rexrecio/dasdis/server"
 )
 
 func main() {

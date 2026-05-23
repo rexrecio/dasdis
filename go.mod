@@ -1,4 +1,4 @@
-module github.com/rexrecio/dasredis
+module github.com/rexrecio/dasdis
 
 go 1.26
 

@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rexrecio/dasredis/resp"
-	"github.com/rexrecio/dasredis/store"
+	"github.com/rexrecio/dasdis/resp"
+	"github.com/rexrecio/dasdis/store"
 )
 
 // --- connection ---
@@ -40,7 +40,7 @@ func (s *Server) cmdHello(w *resp.Writer, args []string) {
 		}
 	}
 	pairs := []string{
-		"server", "dasredis",
+		"server", "dasdis",
 		"version", "0.1.0",
 		"proto", "2",
 		"mode", "standalone",

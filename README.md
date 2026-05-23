@@ -1,4 +1,4 @@
-# dasredis
+# dasdis
 
 An in-memory Redis-compatible server speaking RESP2, built on top of the
 [dasgo](https://github.com/rexrecio/dasgo) data structures. Lists are backed
