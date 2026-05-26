@@ -2,7 +2,7 @@ module github.com/rexrecio/dasdis
 
 go 1.26
 
-require github.com/rexrecio/dasgo v1.3.0
+require github.com/rexrecio/dasgo v1.3.1
 
 require (
 	dario.cat/mergo v1.0.2 // indirect
