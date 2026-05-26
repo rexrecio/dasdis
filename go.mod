@@ -2,7 +2,10 @@ module github.com/rexrecio/dasdis
 
 go 1.26
 
-require github.com/rexrecio/dasgo v1.3.1
+require (
+	github.com/rexrecio/dasgo v1.3.1
+	github.com/testcontainers/testcontainers-go v0.42.0
+)
 
 require (
 	dario.cat/mergo v1.0.2 // indirect
@@ -44,7 +47,6 @@ require (
 	github.com/shirou/gopsutil/v4 v4.26.3 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/stretchr/testify v1.11.1 // indirect
-	github.com/testcontainers/testcontainers-go v0.42.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.16 // indirect
 	github.com/tklauser/numcpus v0.11.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
